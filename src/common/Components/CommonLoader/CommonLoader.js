@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     width: 80,
     height: 80,
-    "&div": {
+    "& div": {
       display: "inline-block",
       position: "absolute",
       left: 8,
@@ -15,15 +15,15 @@ const useStyles = makeStyles((theme) => ({
       background: "lightgrey",
       animation: "spinner 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite",
     },
-    "&div:nth-child(1)": {
+    "& div:nth-child(1)": {
       left: 8,
       animationDelay: "-0.24s",
     },
-    "&div:nth-child(2)": {
+    "& div:nth-child(2)": {
       left: 32,
       animationDelay: "-0.12s",
     },
-    "&div:nth-child(3)": {
+    "& div:nth-child(3)": {
       left: 56,
       animationDelay: "0",
     },

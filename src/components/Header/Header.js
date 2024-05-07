@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px",
     borderRadius: 8,
+    backgroundColor: "#fff",
   },
 }));
 
