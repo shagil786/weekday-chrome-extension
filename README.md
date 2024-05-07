@@ -1,3 +1,5 @@
+# use npm i --force to install all dependency as the material ui was not supported now with react 18.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
